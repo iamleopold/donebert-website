@@ -296,14 +296,34 @@
                 <div style="background-image: url('photo37.jpg');"></div>
                 <div style="background-image: url('photo38.jpg');"></div>
                 <div style="background-image: url('photo39.jpg');"></div>
-                <div style="background-image: url('photo40.jpg');"></div>
-                <div style="background-image: url('photo41.jpg');"></div>
-                <div style="background-image: url('photo42.jpg');"></div>
-                <div style="background-image: url('photo43.jpg');"></div>
-                <div style="background-image: url('photo44.jpg');"></div>
-                <div style="background-image: url('photo45.jpg');"></div>
+                <div style="background-image: url('./images/New Folder/photo40.jpg');"></div>
+                <div style="background-image: url('./images/New Folder/photo41.jpg');"></div>
+                <div style="background-image: url('./images/New Folder/photo42.jpg');"></div>
+                <div style="background-image: url('./images/New Folder/photo43.jpg');"></div>
+                <div style="background-image: url('./images/New Folder/photo44.jpg');"></div>
+                <div style="background-image: url(' ./images/New Folder/hoto45.jpg');"></div>
                 
             </div>
+            
+            <style>
+                .slide{
+                    display:felx ;
+                    height:20rem;
+                    gap:1rem
+                }
+                .slide> div{
+                    flex:1;
+                    border-radius:1rem;
+                    background-position: center;
+                    background-repeat:no-repeat;
+                    background-size: auto 100%;
+                    transition: all .8s cubic-bezier(.25s, .4, .45, 1.4);
+                }
+                .slide > div:hover {
+                       flex:5;
+                }
+            </style>
+                     
                 <!-- Navigation buttons -->
                 <div class="swiper-button-prev swiper-controls"></div>
                 <div class="swiper-button-next swiper-controls"></div>
